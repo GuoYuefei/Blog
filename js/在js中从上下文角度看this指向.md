@@ -106,10 +106,10 @@ f()			// 这里的f是独立运行的  output: undefined  and  undefined
 ```
 
 chrome游览器下运行结果如下: 
-![chrome下运行](https://note.youdao.com/yws/res/2074/WEBRESOURCEa777ff60ebb34de4a32db2cf5687937a)
+![chrome下运行](.\images\1903\chrometest.png)
 
 nodejs环境下运行结果如下:
-![nodejs下运行](https://note.youdao.com/yws/res/2076/WEBRESOURCE45c16db36635d6d0307e89e41440e3f9)
+![nodejs下运行](.\images\1903\nodetest.png)
 
 
 > 之后记录下我的心路历程。主要在看vue官方文档的时候，看见箭头函数不能再vue的method中使用（其实现在知道了，其实是上下文同父级）。 之后就查到this这么多神奇的变化
