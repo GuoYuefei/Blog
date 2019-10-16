@@ -8,28 +8,28 @@
 
 项目暂且包含**repository**如下：
 
-	1. bard主项目	=>	[https://github.com/GuoYuefei/bard](https://github.com/GuoYuefei/bard)
- 	2. bard插件  	 =>    [https://github.com/GuoYuefei/bard-plugin](https://github.com/GuoYuefei/bard-plugin)
- 	3. bard-gui        =>    [https://github.com/GuoYuefei/bard-gui](https://github.com/GuoYuefei/bard-gui)
- 	4. bard前端       =>    [https://github.com/GuoYuefei/bard_gui_front](https://github.com/GuoYuefei/bard_gui_front)
+ 1. bard主项目
+ 2. bard插件
+ 3. bard-gui 
+ 4. bard前端   
 
 
 
 #### 1. 各repository功能、职责介绍
 
-1.1 bard
+1.1 bard [https://github.com/GuoYuefei/bard](https://github.com/GuoYuefei/bard)
 
 ​	本包是核心项目，主要负责代理数据的整理、搬运以及代理权限的认证，从网络七层结构上看，主要实现的是会话和表示层功能。可以单独运行，包含server和client两个配套程序。 在最初本人自使用的时候用的就是这两个程序，后来才写了简单脚本控制程序开关，之后才有的gui的想法。说这么多，重点强调的是，本包是一个可运行的项目。
 
-1.2 bard-plugin 
+1.2 bard-plugin [https://github.com/GuoYuefei/bard-plugin](https://github.com/GuoYuefei/bard-plugin)
 
 ​	本包为bard项目提供数据加密、解密、以及解决tcp粘包问题（粘包是流式传输的通病）。作为一个插件项目必须与bard项目配合使用，也必须实现bard中规定的接口才能发挥作用。
 
-1.3 bard-gui
+1.3 bard-gui [https://github.com/GuoYuefei/bard-gui](https://github.com/GuoYuefei/bard-gui)
 
 ​	本包为bard的gui程序，主要提供的就是界面，而界面来源于bard-gui-front项目。
 
-1.4 bard-gui-front
+1.4 bard-gui-front [https://github.com/GuoYuefei/bard_gui_front](https://github.com/GuoYuefei/bard_gui_front)
 
 ​	本包为react项目，为gui程序提供了web界面。
 
