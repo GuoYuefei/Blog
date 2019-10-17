@@ -13,8 +13,6 @@
  3. bard-gui 
  4. bard前端   
 
-
-
 #### 1. 各repository功能、职责介绍
 
 1.1 bard [https://github.com/GuoYuefei/bard](https://github.com/GuoYuefei/bard)
@@ -32,6 +30,24 @@
 1.4 bard-gui-front [https://github.com/GuoYuefei/bard_gui_front](https://github.com/GuoYuefei/bard_gui_front)
 
 ​	本包为react项目，为gui程序提供了web界面。
+
+
+
+#### 2. 整体项目的框架图
+
+```mermaid
+graph LR
+	subgraph bard代理
+		bard-plugin --> bard
+	end
+	subgraph bard图形界面
+		bard-gui-front -.-> bard-gui
+	end
+		bard-gui --if windows--> A(.cmd)
+		A -.-> bard
+		bard-gui --if mac or linux--> B(.sh)  
+		B -.-> bard
+```
 
 
 
