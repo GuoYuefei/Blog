@@ -1,0 +1,3 @@
+[submodule "ssr/clients"]
+	path = ssr/clients
+	url = https://github.com/GuoYuefei/ssr.git
