@@ -9,7 +9,7 @@
 #   GitHub: https://github.com/huan/docker-wechat
 #
 set -eo pipefail
-
+xhost +
 #
 # The defeault docker image version which confirmed that most stable.
 #   See: https://github.com/huan/docker-wechat/issues/29#issuecomment-619491488
