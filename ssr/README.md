@@ -8,7 +8,7 @@ ssr可以作为linux下的客户端脚本来用，功能相对比较单一。
 
 #### 服务器端加速
 
-主要用的是*南秦朗*的魔改bbr， 不适用ovm, 适用与kvm
+主要用的是*南秦朗*的魔改bbr， 不适用ovm
 
 仓库地址为： https://github.com/tcp-nanqinlang/general
 
